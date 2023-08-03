@@ -6,7 +6,7 @@
 }
 
 .rentblock-container {
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   padding-bottom: 60px;
@@ -28,6 +28,26 @@
   color: #f6f5ef;
 }
 
+@media only screen and (min-width: 768px) {
+  .rentblock-img {
+    width: 271px;
+    height: 187px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .rentblock-img {
+    width: 282px;
+    height: 191px;
+  }
+}
+
+/* .conteiner-form {
+  margin-top: 40px;
+  display: flex;
+  column-gap: 28px;
+} */
+
 .rentblock-form {
   width: 335px;
   position: relative;
@@ -35,13 +55,13 @@
   flex-direction: column;
 }
 
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 768px) {
   .rentblock-form {
     width: 364px;
   }
 }
 
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 1280px) {
   .rentblock-form {
     width: 443px;
   }
@@ -111,7 +131,7 @@ textarea.rentblock-input {
 .ellips {
   position: absolute;
   bottom: -85px;
-  right: -145px;
+  right: -140px;
   width: 283px;
   height: 283px;
   transform: rotate(-44.916deg);
@@ -186,7 +206,7 @@ textarea.rentblock-input {
   }
 
   .rentblock-rent {
-    margin-right: 188px;
+    /* margin-right: 188px; */
   }
 
   label textarea {
