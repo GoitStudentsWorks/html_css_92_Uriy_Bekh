@@ -25,7 +25,6 @@
   color: var(--white);
 }
 
-
 .rentblock-form {
   position: relative;
   width: 100%;
@@ -44,7 +43,6 @@
     height: 191px;
   }
 }
-
 
 /* .conteiner-form {
   margin-top: 40px;
@@ -132,7 +130,7 @@ textarea.rentblock-input {
   fill: var(--white);
 }
 
- .ellips {
+.ellips {
   position: absolute;
   bottom: -85px;
   right: -140px;
@@ -157,6 +155,7 @@ textarea.rentblock-input {
     gap: 32px;
     margin-right: 69px;
     margin-bottom: 0;
+    justify-content: space-between;
   }
 
   label input {
@@ -207,6 +206,7 @@ textarea.rentblock-input {
     padding-left: 0;
     padding-right: 0;
     width: 913px;
+    justify-content: space-between;
   }
 
   /* .rentblock-rent {
