@@ -3,7 +3,6 @@
    ================ */
 
 .rentblock-container {
-  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   padding-bottom: 60px;
@@ -44,11 +43,6 @@
   }
 }
 
-/* .conteiner-form {
-  margin-top: 40px;
-  display: flex;
-  column-gap: 28px;
-} */
 
 .rentblock-form {
   width: 335px;
@@ -133,7 +127,7 @@ textarea.rentblock-input {
 .ellips {
   position: absolute;
   bottom: -85px;
-  right: -140px;
+  right: -145px;
   width: 283px;
   height: 283px;
   transform: rotate(-44.916deg);
@@ -209,17 +203,9 @@ textarea.rentblock-input {
     justify-content: space-between;
   }
 
-  /* .rentblock-rent {
-    margin-right: 188px;
-  } */
-
   label textarea {
     margin-bottom: 64px;
   }
-
-  /* .rentblock {
-    padding: 0 184px;
-  } */
 
   .ellips {
     bottom: -125px;
