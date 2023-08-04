@@ -28,6 +28,7 @@
   position: relative;
   z-index: 1;
 }
+
 .gradient {
   content: '';
   display: block;
@@ -145,6 +146,7 @@
     left: 340px;
   }
 }
+
 .service-subtitle {
   position: absolute;
   bottom: 24px;
@@ -152,7 +154,7 @@
   margin: 0px;
   font-size: 14px;
   font-weight: 700;
-  line-height: 110%;
+  line-height: 1.1;
   letter-spacing: -0.63px;
   border-radius: 60px;
   background: var(--white);
@@ -168,6 +170,7 @@
     letter-spacing: -0.81px;
   }
 }
+
 .services-blur-elipse {
   position: absolute;
   width: 323px;
@@ -175,7 +178,6 @@
   transform: rotate(-45deg);
   border-radius: 323px;
   opacity: 0.6;
-
   background: var(--elipse-background);
   filter: blur(100px);
   z-index: -1;
@@ -193,6 +195,7 @@
     top: -102px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .services-blur-elipse {
     transform: rotate(-45deg);

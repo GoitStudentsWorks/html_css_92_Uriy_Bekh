@@ -2,9 +2,6 @@
    rentblock block
    ================ */
 
-.rentblock {
-}
-
 .rentblock-container {
   /* overflow: hidden; */
   display: flex;
@@ -25,7 +22,7 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -1.62px;
-  color: #f6f5ef;
+  color: var(--white);
 }
 
 @media only screen and (min-width: 768px) {
@@ -70,7 +67,7 @@
 .rentblock-label {
   display: flex;
   flex-direction: column;
-  color: var(--white, #f6f5ef);
+  color: var(--white);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
@@ -102,7 +99,7 @@ label textarea {
 textarea.rentblock-input {
   height: 58px;
   resize: none;
-  color: #f6f5ef;
+  color: var(--white);
 }
 
 .rentblock-button {
@@ -110,14 +107,14 @@ textarea.rentblock-input {
   height: 43px;
   display: block;
   border-radius: 60px;
-  border: 1px solid var(--white, #f6f5ef);
+  border: 1px solid var(--white);
   display: flex;
   padding: 14px 28px;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  background-color: var(--dark-blue, #11131f);
-  color: var(--white, #f6f5ef);
+  background-color: var(--dark-blue);
+  color: var(--white);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -125,7 +122,7 @@ textarea.rentblock-input {
 }
 
 .rentblock-icon {
-  fill: var(--white, #f6f5ef);
+  fill: var(--white);
 }
 
 .ellips {
@@ -138,7 +135,7 @@ textarea.rentblock-input {
   flex-shrink: 0;
   border-radius: 283px;
   opacity: 0.6;
-  background: #91afba;
+  background: var(--elipse-background);
   filter: blur(100px);
 }
 
@@ -205,17 +202,17 @@ textarea.rentblock-input {
     width: 913px;
   }
 
-  .rentblock-rent {
-    /* margin-right: 188px; */
-  }
+  /* .rentblock-rent {
+    margin-right: 188px;
+  } */
 
   label textarea {
     margin-bottom: 64px;
   }
 
-  .rentblock {
-    /* padding: 0 184px; */
-  }
+  /* .rentblock {
+    padding: 0 184px;
+  } */
 
   .ellips {
     bottom: -125px;
@@ -258,7 +255,7 @@ textarea.rentblock-input {
   position: absolute;
   top: 14px;
   right: 14px;
-  background-color: #1f212d;
+  background-color: var(--blue_2);
   border: 0;
   padding: 0;
 }
@@ -267,7 +264,7 @@ textarea.rentblock-input {
   display: flex;
   justify-content: center;
   align-items: center;
-  stroke: #f6f5ef;
+  stroke: var(--white);
 }
 
 .modal-block {
@@ -275,7 +272,7 @@ textarea.rentblock-input {
   width: 335px;
   height: 396px;
   border-radius: 20px;
-  background: #1f212d;
+  background: var(--blue_2);
   padding: 40px 24px;
   top: 50%;
   left: 50%;
@@ -307,7 +304,7 @@ textarea.rentblock-input {
 }
 
 .modal-title {
-  color: var(--white, #f6f5ef);
+  color: var(--white);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.2;
@@ -316,7 +313,7 @@ textarea.rentblock-input {
 
 .modal-text {
   max-width: 100%;
-  color: var(--white, #f6f5ef);
+  color: var(--white);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
@@ -331,7 +328,7 @@ textarea.rentblock-input {
   height: 142px;
   transform: rotate(-45.074deg);
   flex-shrink: 0;
-  background-color: #91afba;
+  background-color: var(--elipse-background);
   opacity: 0.6;
   filter: blur(100px);
   z-index: -1;
