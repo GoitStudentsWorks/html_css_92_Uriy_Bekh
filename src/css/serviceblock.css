@@ -28,7 +28,6 @@
   position: relative;
   z-index: 1;
 }
-
 .gradient {
   content: '';
   display: block;
@@ -76,7 +75,6 @@
   .service-thumb-2 {
     position: relative;
     right: -43%;
-    display: inline-block;
   }
   .service-img-3 {
     width: 380px;
@@ -146,7 +144,6 @@
     left: 340px;
   }
 }
-
 .service-subtitle {
   position: absolute;
   bottom: 24px;
@@ -154,7 +151,7 @@
   margin: 0px;
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 110%;
   letter-spacing: -0.63px;
   border-radius: 60px;
   background: var(--white);
@@ -170,7 +167,6 @@
     letter-spacing: -0.81px;
   }
 }
-
 .services-blur-elipse {
   position: absolute;
   width: 323px;
@@ -178,6 +174,7 @@
   transform: rotate(-45deg);
   border-radius: 323px;
   opacity: 0.6;
+
   background: var(--elipse-background);
   filter: blur(100px);
   z-index: -1;
@@ -195,7 +192,6 @@
     top: -102px;
   }
 }
-
 @media only screen and (min-width: 1280px) {
   .services-blur-elipse {
     transform: rotate(-45deg);

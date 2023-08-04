@@ -1,14 +1,17 @@
 /* Reset styles */
-a,
-p,
 h1,
 h2,
 h3,
-td,
-tr {
+h4,
+h5,
+h6,
+p {
   margin: 0;
-  padding: 0;
 }
+
+/* p:last-child {
+  margin-bottom: 0;
+} */
 
 ul {
   margin: 0;
@@ -29,5 +32,4 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0;
 }

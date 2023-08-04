@@ -36,7 +36,10 @@
 
 .reviews-h3-accent {
   font-style: italic;
-  background: var(--linear-green);
+  background: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -45,8 +48,9 @@
 .reviews-content {
   font-size: 14px;
   font-weight: 400;
-  line-height: 1, 4; /* 19.6px */
+  line-height: 1,4; /* 19.6px */
   letter-spacing: -0.28px;
+
   padding-bottom: 40px;
 }
 
@@ -57,6 +61,7 @@
     margin-left: auto;
     font-size: 16px;
     letter-spacing: -0.32px;
+
     padding-bottom: 64px;
   }
 }
@@ -69,12 +74,14 @@
 
 /* Reviews Cards */
 
+
 .reviews-cards {
   border-radius: 24px;
   background: var(--blue_2);
   display: flex;
   max-width: 335px;
   height: auto;
+  
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
@@ -111,13 +118,14 @@
   font-weight: 500;
   line-height: 1.1; /* 17.6px */
   letter-spacing: -0.72px;
+
   padding-top: 18px;
   padding-bottom: 8px;
 }
 
 .reviews-text {
   max-width: 300px;
-  color: var(--hovericon);
+  color: rgba(246, 245, 239, 0.5);
   text-align: center;
   font-size: 12px;
   font-weight: 400;
@@ -126,18 +134,19 @@
 }
 
 @media only screen and (min-width: 767px) {
-  .reviews-text {
+   .reviews-text{
     font-size: 16px;
     letter-spacing: -0.32px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .reviews-text {
+  .reviews-text{
     font-size: 16px;
     letter-spacing: -0.32px;
   }
 }
+
 
 /*Swiper*/
 .swiper-box {
@@ -157,7 +166,8 @@
   }
 }
 
-.swiper-pagination {
+
+ .swiper-pagination {
   position: relative;
   bottom: auto;
   text-align: center;
@@ -174,25 +184,28 @@
   width: 100%;
 }
 
+
 .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
   display: inline-block;
   border-radius: 50%;
   background-color: var(--blue_2);
+
 }
 
-.swiper-pagination-bullet-active {
+ .swiper-pagination-bullet-active {
   background-color: var(--blu);
+
+
 }
 
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
-  margin: 0 10px;
-  background-color: var(--blu);
+ .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+margin: 0 10px;
+background-color: var(--blu);}
+
+.swiper-scrollbar{
+ visibility: hidden;
 }
 
-.swiper-scrollbar {
-  visibility: hidden;
-}
+

@@ -1,9 +1,14 @@
-/* img {
+body {
+  color: var(--white);
+  margin: 0 auto;
+}
+
+img {
   display: block;
   margin: 0;
-} */
+}
 
-/* a,
+a,
 p,
 h1,
 h2,
@@ -12,7 +17,7 @@ td,
 tr {
   margin: 0;
   padding: 0;
-} */
+}
 
 button {
   font-family: DM Sans;
@@ -67,7 +72,7 @@ button {
 .hd-yacht {
   font-size: 36px;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 110%;
   letter-spacing: -1.62px;
   display: block;
 }
@@ -82,7 +87,7 @@ button {
 @media only screen and (min-width: 1280px) {
   .hd-yacht {
     font-size: 100px;
-    /* line-height: 110%; */
+    line-height: 110%;
     letter-spacing: -4.5px;
     max-width: 882px;
     margin: 0 auto;
@@ -101,7 +106,7 @@ button {
   font-family: DM Sans;
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 110%;
   letter-spacing: -0.63px;
   margin-bottom: 80px;
   text-align: center;
@@ -331,7 +336,7 @@ button {
   white-space: nowrap;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 120%;
   letter-spacing: -0.72px;
   text-transform: uppercase;
 }
@@ -339,7 +344,7 @@ button {
 .yacht-block .swiper-slide p {
   opacity: 0.5;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 118%;
   letter-spacing: 0.36px;
   text-transform: uppercase;
 }
@@ -347,7 +352,7 @@ button {
 .yacht-propeties {
   display: flex;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 118%;
   letter-spacing: 0.42px;
 }
 
@@ -392,7 +397,7 @@ button {
   flex-shrink: 0;
   border-radius: 225px;
   opacity: 0.6;
-  background: var(--light-green);
+  background: #93abae;
   filter: blur(100px);
   position: absolute;
   top: -43px;
@@ -407,7 +412,7 @@ button {
   flex-shrink: 0;
   border-radius: 316px;
   opacity: 0.3;
-  background: var(--light-green);
+  background: #93abae;
   filter: blur(100px);
   position: absolute;
   top: -29px;

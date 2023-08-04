@@ -255,7 +255,7 @@ textarea.rentblock-input {
   position: absolute;
   top: 14px;
   right: 14px;
-  background-color: var(--blue_2);
+  background-color: #1f212d;
   border: 0;
   padding: 0;
 }
@@ -264,7 +264,7 @@ textarea.rentblock-input {
   display: flex;
   justify-content: center;
   align-items: center;
-  stroke: var(--white);
+  stroke: #f6f5ef;
 }
 
 .modal-block {
@@ -272,7 +272,7 @@ textarea.rentblock-input {
   width: 335px;
   height: 396px;
   border-radius: 20px;
-  background: var(--blue_2);
+  background: #1f212d;
   padding: 40px 24px;
   top: 50%;
   left: 50%;
@@ -304,7 +304,7 @@ textarea.rentblock-input {
 }
 
 .modal-title {
-  color: var(--white);
+  color: var(--white, #f6f5ef);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.2;
@@ -313,7 +313,7 @@ textarea.rentblock-input {
 
 .modal-text {
   max-width: 100%;
-  color: var(--white);
+  color: var(--white, #f6f5ef);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
@@ -328,7 +328,7 @@ textarea.rentblock-input {
   height: 142px;
   transform: rotate(-45.074deg);
   flex-shrink: 0;
-  background-color: var(--elipse-background);
+  background-color: #91afba;
   opacity: 0.6;
   filter: blur(100px);
   z-index: -1;
