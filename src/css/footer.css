@@ -31,19 +31,19 @@ p {
 .footer-block {
   background-color: var(--bgcolor);
   margin: 0 auto;
-  padding: 40px 20px 14px 20px;
+  padding: 0 20px 14px 20px;
   color: var(--textcolor);
   overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
   .footer-block {
-    padding: 50px 32px 16px 32px;
+    padding: 0 32px 16px 32px;
   }
 }
 @media screen and (min-width: 1280px) {
   .footer-block {
-    padding: 82px 32px 16px 32px;
+    padding: 0 32px 16px 32px;
   }
 }
 
@@ -62,7 +62,6 @@ p {
   padding-top: 44px;
   padding-left: 0px;
   padding-right: 0px;
-  
 }
 
 @media screen and (min-width: 768px) {
@@ -211,6 +210,8 @@ p {
 
   line-height: 1.18;
   letter-spacing: 0.36px;
+  z-index: 100;
+  background-color: transparent;
 }
 .elipse-1 {
   width: 420px;
@@ -225,7 +226,7 @@ p {
   position: absolute;
   top: 80%;
   left: 5%;
-  z-index: 999;
+  z-index: 99;
 }
 
 @media screen and (min-width: 768px) {
