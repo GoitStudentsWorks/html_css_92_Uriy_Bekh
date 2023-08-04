@@ -3,7 +3,6 @@
    ================ */
 
 .rentblock-container {
-  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   padding-bottom: 60px;
@@ -44,11 +43,6 @@
   }
 }
 
-/* .conteiner-form {
-  margin-top: 40px;
-  display: flex;
-  column-gap: 28px;
-} */
 
 .rentblock-form {
   width: 335px;
