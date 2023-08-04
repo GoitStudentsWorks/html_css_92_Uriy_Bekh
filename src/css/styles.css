@@ -89,6 +89,7 @@ body {
   font-family: 'DM Sans';
   font-style: normal;
   color: var(--white);
+  font-weight: 400;
 }
 
 /**
@@ -120,3 +121,14 @@ body {
     max-width: 1280px;
   }
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+main {
+  overflow: hidden;
+}
+
