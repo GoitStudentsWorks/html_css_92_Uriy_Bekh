@@ -209,20 +209,13 @@ textarea.rentblock-input {
     justify-content: space-between;
   }
 
-  .rentblock-rent {
-    margin-right: 188px;
-  } */
-
   label textarea {
     margin-bottom: 64px;
   }
 
-  .rentblock {
-    padding: 0 184px;
-  }
-  .ellips{
-    bottom:-125px ;
-      right:-390px ;
+  .ellips {
+    bottom: -125px;
+    right: -390px;
     width: 414px;
     height: 414px;
     transform: rotate(-45.074deg);
