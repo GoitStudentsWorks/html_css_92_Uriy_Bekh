@@ -1,5 +1,5 @@
 #myBtn {
-  margin-left: 260px;
+ margin-left: 260px;
   margin-right: 20px;
   display: none;
   position: fixed;
@@ -28,41 +28,43 @@
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  #myBtn {
-    bottom: 270px;
-    right: 130px;
-  }
+@media only screen and (min-width: 768px) {
+    #myBtn {
+        bottom: 328px;
+    }
 }
 
+
 .tablet-arrow {
-  display: none;
+    display: none;
 }
 
 .pc-arrow {
-  display: none;
+    display: none;
 }
 
 @media only screen and (min-width: 768px) {
-  .tablet-arrow {
-    display: flex;
-  }
+    .tablet-arrow {
+        display: flex;
 
-  .phone-arrow {
-    display: none;
-  }
+    }
+
+    .phone-arrow {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
-  .tablet-arrow {
-    display: none;
-  }
+    .tablet-arrow {
+        display: none;
+    }
 
-  .pc-arrow {
-    display: flex;
-  }
+    .pc-arrow {
+        display: flex;
+
+    }
 }
 
 #myBtn:hover {
-  background-color: var(--blu);
+    background-color: var(--blu);
 }
