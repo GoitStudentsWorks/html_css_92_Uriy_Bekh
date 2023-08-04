@@ -95,7 +95,7 @@ textarea.rentblock-input {
  .ellips {
   position: absolute;
   bottom: -85px;
-  right: -145px;
+  right: -140px;
   width: 283px;
   height: 283px;
   transform: rotate(-44.916deg);
@@ -172,6 +172,8 @@ textarea.rentblock-input {
   }
 
   .rentblock-rent {
+    max-width: 282px;
+    gap: 64px;
     margin-right: 188px;
   }
 
@@ -180,7 +182,7 @@ textarea.rentblock-input {
   }
 
   .rentblock {
-    padding: 0 184px;
+    padding: 0 183px 0 184px;
   }
   .ellips{
     bottom:-125px ;
