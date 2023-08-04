@@ -25,6 +25,12 @@
   color: var(--white);
 }
 
+
+.rentblock-form {
+  position: relative;
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .rentblock-img {
     width: 271px;
@@ -38,6 +44,7 @@
     height: 191px;
   }
 }
+
 
 /* .conteiner-form {
   margin-top: 40px;
@@ -125,7 +132,7 @@ textarea.rentblock-input {
   fill: var(--white);
 }
 
-.ellips {
+ .ellips {
   position: absolute;
   bottom: -85px;
   right: -140px;
